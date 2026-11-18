@@ -1,0 +1,7 @@
+package com.transporte.pagos.repositories;
+
+import com.transporte.pagos.entities.Viaje;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ViajeRepository extends JpaRepository<Viaje, Integer> {
+}
